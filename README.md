@@ -1,4 +1,4 @@
-"# typescript" 
+"# typescript basic and advanced" 
 
     <h1>how to compile typescript file to javascript file</h1>
 
@@ -19,14 +19,14 @@
 tsc main.ts
 We can also compile multiple files at once by listing all of them or by applying wildcards:
 
-# Will result in separate .js files: main.js worker.js.
+  Will result in separate .js files: main.js worker.js.
 tsc main.ts worker.ts    
 
-# Compiles all .ts files in the current folder. Does NOT work recursively.
+  Compiles all .ts files in the current folder. Does NOT work recursively.
 tsc *.ts
 We can also use the --watch option to automatically compile a TypeScript file when changes are made:
 
-# Initializes a watcher process that will keep main.js up to date.
+  Initializes a watcher process that will keep main.js up to date.
 tsc main.ts --watch
 
 
