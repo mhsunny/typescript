@@ -1,8 +1,7 @@
-"# typescript basic and advanced" 
+"Typescript basic and advanced" 
 
-    <h1>how to compile typescript file to javascript file</h1>
-
-    <pre>
+ how to compile typescript file to javascript file 
+ 
         Compiling to JavaScript
         TypeScript is written in .ts files (or .tsx for JSX), which can't be used directly in the browser and need to be translated to vanilla .js first. This compilation process can be done in a number of different ways:
         
@@ -19,7 +18,7 @@
 tsc main.ts
 We can also compile multiple files at once by listing all of them or by applying wildcards:
 
-  Will result in separate .js files: main.js worker.js.
+Will result in separate .js files: main.js worker.js.
 tsc main.ts worker.ts    
 
   Compiles all .ts files in the current folder. Does NOT work recursively.
